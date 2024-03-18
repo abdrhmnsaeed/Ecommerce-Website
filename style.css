@@ -107,7 +107,6 @@
     flex: 60%;
     background-color: #FCEED5;
     z-index: 2;
-    border: 2px solid blue;
     position: relative;
     z-index: 2;
 
@@ -132,5 +131,133 @@
   .woman{
     position: absolute;
     bottom: 0px;
-    /* left: 2rem; */
+  }
+
+  .leftside{
+    padding-left: 145px;
+    line-height: 60px;
+    justify-content: left;
+    padding-top: 80px;
+  }
+
+  .top-left{
+    position: relative;
+    z-index: 2;
+  }
+
+  .leftside h1{
+    font-family: 'SVN-Gilroy', sans-serif;
+    color: #003459;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 68px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .leftside h2{
+    font-family: 'SVN-Gilroy', sans-serif;
+    color: #003459;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .leftside p{
+    font-family: 'SVN-Gilroy', sans-serif;
+    color: #242B33;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 20px;
+  }
+
+  .bottom-left{
+    margin-top: 30px;
+    display: flex;
+  }
+
+  .bottom-left .intro-btn{
+    width: 161px;
+    height: 48px;
+    border-radius: 57px;   
+    border: 1.5px solid #003459;
+    /* top: 442px;
+    left: 130px; */
+    font-family: 'SVN-Gilroy', sans-serif;
+    background-color: transparent;
+    color: #003459;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: left; */
+    /* background-image: url('images/Play_Circle.svg');
+    background-position: left; 
+    background-repeat: no-repeat; */
+    /* padding: px; */
+  }
+
+  .left-img{
+    position: absolute;
+    left: -13px;
+    z-index: -1;
+  
+  }
+
+  .bottom-left .explore-btn{
+    width: 163px;
+    height: 48px;
+    top: 442px;
+    left: 311px;
+    padding: 14px 28px 10px 28px;
+    gap: 10px;
+    border-radius: 57px;
+    font-family: 'SVN-Gilroy', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #003459;
+    border: transparent;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+  }
+
+  .rect8{
+    position: absolute;
+    top: 648px;
+    left: 4px;
+  }
+
+  .rect5{
+    position: absolute;
+    width: 1.289rem;
+    height: 1.289rem;
+    top: 5.313rem;
+    left: 14.387rem;
+  }
+
+  .rect6{
+    position: absolute;
+    width: 1.719rem;
+    height: 1.719rem;
+    top: 8.793rem;
+    left: 12.5rem;
+  }
+
+  .rect7{
+    position: absolute;
+    width: 1.342rem;
+    height: 1.342rem;
+    top: 9.353rem;
+    left: 12.5rem;
   }
