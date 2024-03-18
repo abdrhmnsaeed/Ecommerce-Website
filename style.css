@@ -1,0 +1,136 @@
+@import url('https://fonts.cdnfonts.com/css/svn-gilroy');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    font-family: 'SVN-Gilroy', sans-serif;
+  }
+
+  header {
+    background-color: #FCEED5;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+    padding: 20px 0;
+    padding-bottom: 20px;
+    z-index: 10;  /* Ensures the header stays on top of content */
+}
+
+  .container{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  ul{
+    list-style: none;
+    margin: 0;
+  }
+
+  li{
+    display: inline;
+  }
+
+  .logo{
+    z-index: 1;
+  }
+
+  .top-img{
+    position: absolute;
+    left: 0px;
+  }
+
+  .top-img img{
+    width: 34.313rem; 
+    height: 37.5rem; 
+  }
+
+  .nav-links a{
+    text-decoration: none;
+    padding-left: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #003459;
+    font-family: 'SVN-Gilroy', sans-serif;
+  }
+
+  .search-bar input{
+    width: 280px;
+    border: 0px solid;  
+    height: 44px;
+    border-radius: 57px;
+    background-image: url('images/u_search.svg');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    font-family: 'SVN-Gilroy', sans-serif;
+  }
+
+  .join-btn button{
+    width: 223px;
+    height: 44px;
+    border-radius: 57px;
+    background-color: #003459;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'SVN-Gilroy', sans-serif;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .main{
+    display: flex;
+    /* margin-top: 100px; */
+    background-color: #FCEED5;
+    /* overflow: hidden; */
+    height: 86.5vh;
+  }  
+
+  .leftside{
+    flex: 40%;
+    background-color: #FCEED5;
+  }
+
+  .rightside{
+    display: flex;
+    justify-content: space-between;
+    flex: 60%;
+    background-color: #FCEED5;
+    z-index: 2;
+    border: 2px solid blue;
+    position: relative;
+    z-index: 2;
+
+
+  }
+
+  .rect{
+    position: absolute;
+    width: 635px;
+    left: 699.22px;
+    left: 4rem;
+    z-index: -1;
+    bottom: 0px;
+  }
+  .rect1{
+    position: absolute;
+    right: 4rem;
+    bottom: 0px;
+    z-index: -1;
+  }
+
+  .woman{
+    position: absolute;
+    bottom: 0px;
+    /* left: 2rem; */
+  }
