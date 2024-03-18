@@ -1,263 +1,995 @@
-@import url('https://fonts.cdnfonts.com/css/svn-gilroy');
+@import url("https://fonts.cdnfonts.com/css/svn-gilroy");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  body{
-    font-family: 'SVN-Gilroy', sans-serif;
-  }
-
-  header {
-    background-color: #FCEED5;
-    position: relative;
-    top: 0;
-    left: 0;
-    height: 100px;
-    width: 100%;
-    padding: 20px 0;
-    padding-bottom: 20px;
-    z-index: 10;  /* Ensures the header stays on top of content */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-  .container{
-    display: flex;
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+body {
+  font-family: "SVN-Gilroy", sans-serif;
+}
 
-  ul{
-    list-style: none;
-    margin: 0;
-  }
+header {
+  background-color: #fceed5;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100px;
+  width: 100%;
+  padding: 20px 0;
+  padding-bottom: 20px;
+  z-index: 10; /* Ensures the header stays on top of content */
+}
 
-  li{
-    display: inline;
-  }
+.container {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-  .logo{
-    z-index: 1;
-  }
+ul {
+  list-style: none;
+  margin: 0;
+}
 
-  .top-img{
-    position: absolute;
-    left: 0px;
-  }
+li {
+  display: inline;
+}
 
-  .top-img img{
-    width: 34.313rem; 
-    height: 37.5rem; 
-  }
+.logo {
+  z-index: 1;
+}
 
-  .nav-links a{
-    text-decoration: none;
-    padding-left: 30px;
-    font-size: 16px;
-    font-weight: 700;
-    color: #003459;
-    font-family: 'SVN-Gilroy', sans-serif;
-  }
+.top-img {
+  position: absolute;
+  left: 0px;
+}
 
-  .search-bar input{
-    width: 280px;
-    border: 0px solid;  
-    height: 44px;
-    border-radius: 57px;
-    background-image: url('images/u_search.svg');
-    background-position: 10px 10px; 
-    background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
-    font-family: 'SVN-Gilroy', sans-serif;
-  }
+.top-img img {
+  width: 34.313rem;
+  height: 37.5rem;
+}
 
-  .join-btn button{
-    width: 223px;
-    height: 44px;
-    border-radius: 57px;
-    background-color: #003459;
-    color: #fff;
-    font-size: 16px;
-    font-weight: 600;
-    font-family: 'SVN-Gilroy', sans-serif;
-    text-decoration: none;
-    text-align: center;
-  }
+.nav-links a {
+  text-decoration: none;
+  padding-left: 30px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #003459;
+  font-family: "SVN-Gilroy", sans-serif;
+}
 
-  .main{
-    display: flex;
-    /* margin-top: 100px; */
-    background-color: #FCEED5;
-    /* overflow: hidden; */
-    height: 86.5vh;
-  }  
+.search-bar input {
+  width: 280px;
+  border: 0px solid;
+  height: 44px;
+  border-radius: 57px;
+  background-image: url("images/u_search.svg");
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  font-family: "SVN-Gilroy", sans-serif;
+}
 
-  .leftside{
-    flex: 40%;
-    background-color: #FCEED5;
-  }
+.join-btn button {
+  width: 223px;
+  height: 44px;
+  border-radius: 57px;
+  background-color: #003459;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "SVN-Gilroy", sans-serif;
+  text-decoration: none;
+  text-align: center;
+}
 
-  .rightside{
-    display: flex;
-    justify-content: space-between;
-    flex: 60%;
-    background-color: #FCEED5;
-    z-index: 2;
-    position: relative;
-    z-index: 2;
+.main {
+  display: flex;
+  /* margin-top: 100px; */
+  background-color: #fceed5;
+  /* overflow: hidden; */
+  height: 86.5vh;
+  border-bottom-left-radius: 20px;
+}
+
+.leftside {
+  flex: 40%;
+  background-color: #fceed5;
+}
+
+.rightside {
+  display: flex;
+  justify-content: space-between;
+  flex: 60%;
+  background-color: #fceed5;
+  z-index: 2;
+  position: relative;
+  z-index: 2;
+}
+
+.rect {
+  position: absolute;
+  width: 635px;
+  left: 699.22px;
+  left: 4rem;
+  z-index: -1;
+  bottom: 0px;
+}
+.rect1 {
+  position: absolute;
+  right: 4rem;
+  bottom: 0px;
+  z-index: -1;
+}
+
+.woman {
+  position: absolute;
+  bottom: 0px;
+}
+
+.leftside {
+  padding-left: 145px;
+  line-height: 60px;
+  justify-content: left;
+  padding-top: 80px;
+}
+
+.top-left {
+  position: relative;
+  z-index: 2;
+}
+
+.leftside h1 {
+  font-family: "SVN-Gilroy", sans-serif;
+  color: #003459;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 68px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.leftside h2 {
+  font-family: "SVN-Gilroy", sans-serif;
+  color: #003459;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.leftside p {
+  font-family: "SVN-Gilroy", sans-serif;
+  color: #242b33;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.bottom-left {
+  margin-top: 30px;
+  display: flex;
+}
+
+.bottom-left .intro-btn {
+  width: 161px;
+  height: 48px;
+  border-radius: 57px;
+  border: 1.5px solid #003459;
+  font-family: "SVN-Gilroy", sans-serif;
+  background-color: transparent;
+  color: #003459;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-img {
+  position: absolute;
+  left: -13px;
+  z-index: -1;
+}
+
+.bottom-left .explore-btn {
+  width: 163px;
+  height: 48px;
+  top: 442px;
+  left: 311px;
+  padding: 14px 28px 10px 28px;
+  gap: 10px;
+  border-radius: 57px;
+  font-family: "SVN-Gilroy", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #003459;
+  border: transparent;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.rect8 {
+  position: absolute;
+  top: 648px;
+  left: 4px;
+}
+
+.rect5 {
+  position: absolute;
+  width: 1.289rem;
+  height: 1.289rem;
+  top: 5.313rem;
+  left: 14.387rem;
+}
+
+.rect6 {
+  position: absolute;
+  width: 1.719rem;
+  height: 1.719rem;
+  top: 8.793rem;
+  left: 12.5rem;
+}
+
+.rect7 {
+  position: absolute;
+  width: 1.342rem;
+  height: 1.342rem;
+  top: 9.353rem;
+  left: 12.5rem;
+}
+
+.pet-section {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 50px;
+  height: 130vh;
+}
+
+.top-pet {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+
+.left-top-pet h6 {
+  font-family: "SVN-Gilroy", sans-serif;
+  color: #003459;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.left-top-pet h3 {
+  font-family: "SVN-Gilroy", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  color: #003459;
+  text-align: left;
+}
+
+.pet-btn {
+  width: 161px;
+  height: 48px;
+  border-radius: 57px;
+  border: 1.5px solid #003459;
+  font-family: "SVN-Gilroy", sans-serif;
+  background-color: transparent;
+  color: #003459;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pet-img {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 4px 28px -2px #00000014;
+  padding: 1rem;
+  text-align: left;
+  border-radius: 20px;
+}
+
+.pet-img h4 {
+  font-family: "SVN-Gilroy", sans-serif;
+  font-size: 16px;
+  color: #003459;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  line-height: 25px;
+  text-align: left;
+}
+
+.pet-img p {
+  color: #667479;
+  font-size: 12px;
+  font-family: "SVN-Gilroy", sans-serif;
+  line-height: 25x;
+}
+
+.pet-img h5 {
+  font-family: "SVN-Gilroy", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #003459;
+}
+
+.bottom-pet {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.short-section {
+  display: flex;
+  height: 50vh;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 30px;
+  background-color: #003459;
+  overflow: hidden;
+}
+
+.short-left {
+  flex: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+.short-right {
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  z-index: 1;
+  position: relative;
+}
+
+.rec1 {
+  position: absolute;
+  bottom: 0px;
+}
+
+.hold-dog {
+  position: absolute;
+  bottom: 0px;
+}
+
+.short-right h1 {
+  font-family: "SVN-Gilroy", sans-serif;
+  color: #003459;
+  font-size: 52px;
+  font-weight: 800;
+  line-height: 68px;
+  text-align: right;
+}
+
+.short-right h2 {
+  font-family: "SVN-Gilroy", sans-serif;
+  color: #003459;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: right;
+}
+
+.short-right p {
+  font-family: "SVN-Gilroy", sans-serif;
+  color: #242b33;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: right;
+  margin-top: 20px;
+}
+
+.intro-btn2 {
+  width: 161px;
+  height: 48px;
+  border-radius: 57px;
+  border: 1.5px solid #003459;
+  font-family: "SVN-Gilroy", sans-serif;
+  background-color: transparent;
+  color: #003459;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-img2 {
+  position: absolute;
+  z-index: -1;
+}
+
+.btns {
+  display: flex;
+  padding-top: 20px;
+}
+
+.left-sec {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  align-items: flex-end;
+}
+
+.explore-btn2 {
+  width: 163px;
+  height: 48px;
+  top: 442px;
+  left: 311px;
+  padding: 14px 28px 10px 28px;
+  gap: 10px;
+  border-radius: 57px;
+  font-family: "SVN-Gilroy", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #003459;
+  border: transparent;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+}
 
 
-  }
+.products-sec{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 50px;
+  height: 140vh;
+}
 
-  .rect{
-    position: absolute;
-    width: 635px;
-    left: 699.22px;
-    left: 4rem;
-    z-index: -1;
-    bottom: 0px;
-  }
-  .rect1{
-    position: absolute;
-    right: 4rem;
-    bottom: 0px;
-    z-index: -1;
-  }
+.top-products {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
 
-  .woman{
-    position: absolute;
-    bottom: 0px;
-  }
+.left-top-product h6 {
+  font-family: "SVN-Gilroy", sans-serif;
+  color: #003459;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
 
-  .leftside{
-    padding-left: 145px;
-    line-height: 60px;
-    justify-content: left;
-    padding-top: 80px;
-  }
+.left-top-product h3 {
+  font-family: "SVN-Gilroy", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  color: #003459;
+  text-align: left;
+}
 
-  .top-left{
-    position: relative;
-    z-index: 2;
-  }
+.products-btn {
+  width: 161px;
+  height: 48px;
+  border-radius: 57px;
+  border: 1.5px solid #003459;
+  font-family: "SVN-Gilroy", sans-serif;
+  background-color: transparent;
+  color: #003459;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .leftside h1{
-    font-family: 'SVN-Gilroy', sans-serif;
-    color: #003459;
-    font-size: 60px;
-    font-weight: 900;
-    line-height: 68px;
-    letter-spacing: 0em;
-    text-align: left;
-  }
+.product-img {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 4px 28px -2px #00000014;
+  padding: 1rem;
+  text-align: left;
+  border-radius: 20px;
+}
 
-  .leftside h2{
-    font-family: 'SVN-Gilroy', sans-serif;
-    color: #003459;
-    font-size: 46px;
-    font-weight: 700;
-    line-height: 60px;
-    letter-spacing: 0em;
-    text-align: left;
-  }
+.product-img h4 {
+  font-family: "SVN-Gilroy", sans-serif;
+  font-size: 16px;
+  color: #003459;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  line-height: 25px;
+  text-align: left;
+}
 
-  .leftside p{
-    font-family: 'SVN-Gilroy', sans-serif;
-    color: #242B33;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: left;
-    margin-top: 20px;
-  }
+.product-img p {
+  color: #667479;
+  font-size: 12px;
+  font-family: "SVN-Gilroy", sans-serif;
+  line-height: 25x;
+}
 
-  .bottom-left{
-    margin-top: 30px;
-    display: flex;
-  }
+.product-img h5 {
+  font-family: "SVN-Gilroy", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #003459;
+}
 
-  .bottom-left .intro-btn{
-    width: 161px;
-    height: 48px;
-    border-radius: 57px;   
-    border: 1.5px solid #003459;
-    /* top: 442px;
-    left: 130px; */
-    font-family: 'SVN-Gilroy', sans-serif;
-    background-color: transparent;
-    color: #003459;
-    font-size: 16px;
-    font-weight: 500;
-    letter-spacing: 0em;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* text-align: left; */
-    /* background-image: url('images/Play_Circle.svg');
-    background-position: left; 
-    background-repeat: no-repeat; */
-    /* padding: px; */
-  }
+.product-img button{
+  border-radius: 8px;
+  border: 0px;
+  width: 248px;
+  height: 34px;
+  padding: 6px 10px 4px 10px;
+  font-family: "SVN-Gilroy", sans-serif;
+  background-color: #FCEED5;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #003459;
+  margin-top: 10px;
+}
 
-  .left-img{
-    position: absolute;
-    left: -13px;
-    z-index: -1;
-  
-  }
+.bottom-products {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
 
-  .bottom-left .explore-btn{
-    width: 163px;
-    height: 48px;
-    top: 442px;
-    left: 311px;
-    padding: 14px 28px 10px 28px;
-    gap: 10px;
-    border-radius: 57px;
-    font-family: 'SVN-Gilroy', sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    background-color: #003459;
-    border: transparent;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 15px;
-  }
+.sellers{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 50px;
+  height: 40vh;
+}
 
-  .rect8{
-    position: absolute;
-    top: 648px;
-    left: 4px;
-  }
+.left-top-seller{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
 
-  .rect5{
-    position: absolute;
-    width: 1.289rem;
-    height: 1.289rem;
-    top: 5.313rem;
-    left: 14.387rem;
-  }
+.top-sellers {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
 
-  .rect6{
-    position: absolute;
-    width: 1.719rem;
-    height: 1.719rem;
-    top: 8.793rem;
-    left: 12.5rem;
-  }
+.left-top-seller h6 {
+  font-family: "SVN-Gilroy", sans-serif;
+  color: #003459;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
 
-  .rect7{
-    position: absolute;
-    width: 1.342rem;
-    height: 1.342rem;
-    top: 9.353rem;
-    left: 12.5rem;
-  }
+.left-top-seller h3 {
+  font-family: "SVN-Gilroy", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  color: #003459;
+  text-align: left;
+}
+
+.seller-btn {
+  width: 161px;
+  height: 48px;
+  border-radius: 57px;
+  border: 1.5px solid #003459;
+  font-family: "SVN-Gilroy", sans-serif;
+  background-color: transparent;
+  color: #003459;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom-sellers{
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 20px;
+}
+
+.adoption{
+  display: flex;
+  height: 50vh;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 30px;
+  background-color: #FFB775;
+  overflow: hidden;
+}
+
+.left-adoption{
+  flex: 50%;
+  position: relative;
+  z-index: 1;
+}
+
+.right-adoption{
+  flex: 50%;
+  position: relative;
+}
+
+.rec01{
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+.rec02{
+  position: absolute;
+  height: 370.79px;
+}
+
+.rec03{
+  position: absolute;
+  height: 370px;
+  z-index: -1;
+}
+
+.left-adoption h1 {
+  font-family: "SVN-Gilroy", sans-serif;
+  color: #003459;
+  font-size: 52px;
+  font-weight: 800;
+  line-height: 68px;
+  text-align: left;
+}
+
+.left-adoption h2 {
+  font-family: "SVN-Gilroy", sans-serif;
+  color: #003459;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.left-adoption p {
+  font-family: "SVN-Gilroy", sans-serif;
+  color: #242b33;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.btns {
+  display: flex;
+  padding-top: 20px;
+}
+
+.rightSec {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.intro-btn3 {
+  width: 161px;
+  height: 48px;
+  border-radius: 57px;
+  border: 1.5px solid #003459;
+  font-family: "SVN-Gilroy", sans-serif;
+  background-color: transparent;
+  color: #003459;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btns3 {
+  display: flex;
+  padding-top: 20px;
+  gap: 20px;
+}
+
+.explore-btn3 {
+  width: 163px;
+  height: 48px;
+  top: 442px;
+  left: 311px;
+  padding: 14px 28px 10px 28px;
+  gap: 10px;
+  border-radius: 57px;
+  font-family: "SVN-Gilroy", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #003459;
+  border: transparent;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.knowledge{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 50px;
+  height: 87vh;
+}
+
+.top-knowledge {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+
+.left-top-know h6 {
+  font-family: "SVN-Gilroy", sans-serif;
+  color: #003459;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.left-top-know h3 {
+  font-family: "SVN-Gilroy", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  color: #003459;
+  text-align: left;
+}
+
+.know-btn {
+  width: 161px;
+  height: 48px;
+  border-radius: 57px;
+  border: 1.5px solid #003459;
+  font-family: "SVN-Gilroy", sans-serif;
+  background-color: transparent;
+  color: #003459;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.know-img {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 4px 28px -2px #00000014;
+  padding: 1rem;
+  text-align: left;
+  border-radius: 20px;
+}
+
+.know-img h3 {
+  font-family: "SVN-Gilroy", sans-serif;
+  font-size: 16px;
+  color: #003459;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  line-height: 25px;
+  text-align: left;
+}
+
+.know-img p {
+  color: #667479;
+  font-size: 12px;
+  font-family: "SVN-Gilroy", sans-serif;
+  line-height: 25x;
+}
+
+.know-img img{
+  border-radius: 8px;
+}
+
+.know-img button{
+  border-radius: 28px;
+  border: 0px;
+  width: 89px;
+  height: 20px;
+  padding: 2px, 10px, 2px, 10px;
+  font-family: "SVN-Gilroy", sans-serif;
+  background-color: #00A7E7;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: center;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.botton-knowledge{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 50px;
+  height: 50vh;
+  background-color: #FCEED5;
+}
+
+.news-letter{
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  height: 15vh;
+  border-radius: 16px;
+  align-items: center;
+  padding: 30px;
+  background-color: #003459;
+}
+
+.news-left{
+  flex: 30%;
+}
+
+.news-left h3{
+  font-family: "SVN-Gilroy", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+
+.news-right{
+  flex: 60%;
+  width: 707px;
+  height: 65px;
+  padding: 12px;
+  gap: 12px;
+  padding: 10px;
+  border-radius: 14px;  
+  background-color: #fff;
+}
+
+.news-right input{
+  width: 550px;
+  padding: 14px 2px 14px 28px;
+  gap: 10px;
+  font-family: "SVN-Gilroy", sans-serif;
+  border-radius: 8px; 
+  border: 1px solid #b4babc; 
+}
+
+.news-right button{
+  width: 175px;
+  height: 48px;
+  /* padding: 14px 28px 10px 28px; */
+  gap: 20px;
+  border-radius: 8px; 
+  background-color: #003459;
+  color: #fff;
+  font-family: "SVN-Gilroy", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+}
+
+.navigate{
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 40px;
+  border-bottom: 1px solid #CCD1D2;
+  justify-content: space-between;
+  height: 10vh;
+  gap: 60px;
+}
+
+
+.navigate a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #00171F;
+  font-family: "SVN-Gilroy", sans-serif;
+  padding: 20px 26px;
+}
+
+.navigate img{
+  padding: 20px 26px;
+}
+
+.logo-sec{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.logo-sec p{
+  font-family: "SVN-Gilroy", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #667479;
+}
+
+.right-logo-sec{
+  display: flex;
+  gap: 40px;
+}
+
