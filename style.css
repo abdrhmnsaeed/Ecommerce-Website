@@ -10,6 +10,10 @@ body {
   font-family: "SVN-Gilroy", sans-serif;
 }
 
+.catery{
+  background-color: #fff;
+}
+
 header {
   background-color: #fceed5;
   position: relative;
@@ -19,7 +23,7 @@ header {
   width: 100%;
   padding: 20px 0;
   padding-bottom: 20px;
-  z-index: 10; /* Ensures the header stays on top of content */
+  z-index: 10;
 }
 
 .container {
@@ -58,10 +62,12 @@ li {
   text-decoration: none;
   padding-left: 30px;
   font-size: 16px;
+  text-align: center;
   font-weight: 700;
   color: #003459;
   font-family: "SVN-Gilroy", sans-serif;
 }
+
 
 .search-bar input {
   width: 280px;
@@ -74,6 +80,7 @@ li {
   padding: 12px 20px 12px 40px;
   font-family: "SVN-Gilroy", sans-serif;
 }
+
 
 .join-btn button {
   width: 223px;
@@ -88,11 +95,17 @@ li {
   text-align: center;
 }
 
+.mainSection{
+  width: 100%;
+  border: 3px solid;
+  background-color: #FCEED5;
+}
+
 .main {
   display: flex;
-  /* margin-top: 100px; */
   background-color: #fceed5;
-  /* overflow: hidden; */
+  width: 80%;
+  margin: 0 auto;
   height: 86.5vh;
   border-bottom-left-radius: 20px;
 }
@@ -109,20 +122,16 @@ li {
   background-color: #fceed5;
   z-index: 2;
   position: relative;
-  z-index: 2;
 }
 
 .rect {
   position: absolute;
-  width: 635px;
-  left: 699.22px;
-  left: 4rem;
+  width: 39.688rem;
   z-index: -1;
   bottom: 0px;
 }
 .rect1 {
   position: absolute;
-  right: 4rem;
   bottom: 0px;
   z-index: -1;
 }
@@ -133,7 +142,6 @@ li {
 }
 
 .leftside {
-  padding-left: 145px;
   line-height: 60px;
   justify-content: left;
   padding-top: 80px;
@@ -361,7 +369,6 @@ li {
 .short-left {
   flex: 50%;
   position: relative;
-  overflow: hidden;
 }
 
 .short-right {
@@ -440,7 +447,7 @@ li {
   padding-top: 20px;
 }
 
-.left-sec {
+.right-sec {
   display: flex;
   flex-direction: column;
   padding: 50px;
@@ -874,6 +881,7 @@ li {
 .footer{
   display: flex;
   flex-direction: column;
+  border-radius: 20px 20px 0px 0px;
   width: 100%;
   margin: 0 auto;
   padding-top: 50px;
@@ -918,7 +926,7 @@ li {
 }
 
 .news-right input{
-  width: 550px;
+  width: 34.375rem;
   padding: 14px 2px 14px 28px;
   gap: 10px;
   font-family: "SVN-Gilroy", sans-serif;
@@ -992,4 +1000,814 @@ li {
   display: flex;
   gap: 40px;
 }
+
+
+
+
+
+
+
+
+
+
+/* CATEGORY PAGE */
+
+.category-banner{
+  display: flex;
+  flex-direction: column;
+  height: 75vh;
+  width: 80%;
+  margin: 0 auto;
+  gap: 30px;
+  overflow: hidden;
+}
+
+.category-text{
+  display: flex;
+  gap: 20px;
+}
+
+.category-text p{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  color: #667479;
+  font-family: "SVN-Gilroy", sans-serif;
+}
+
+.banner-main{
+  display: flex;
+  flex-direction: row;
+  height: 60vh;
+  margin-top: 40px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #FCEED5;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.left-banner-main{
+  flex: 60%;
+}
+
+.dogs{
+  position: absolute;
+  bottom: 0px;
+  left: 70px;
+  z-index: 2;
+}
+
+.right-banner-main{
+  flex: 50%;
+  display: flex;
+}
+
+.rect001{
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  height: 450px;
+  width: 816.4px;
+  z-index: 1;
+}
+
+.right-text{
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 75px;
+}
+
+.right-text h1{
+  font-family: "SVN-Gilroy", sans-serif;
+  font-size: 52px;
+  font-weight: 800;
+  line-height: 68px;
+  color: #fff;
+  text-align: right;
+}
+
+.right-text h2{
+  font-family: "SVN-Gilroy", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+  color: #fff;
+  text-align: right;
+}
+
+.right-text p{
+  font-family: "SVN-Gilroy", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 18px;
+  text-align: right;
+}
+
+.intro-btn01 {
+  width: 161px;
+  height: 48px;
+  border-radius: 57px;
+  border: 1.5px solid #fff;
+  font-family: "SVN-Gilroy", sans-serif;
+  background-color: transparent;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btns01 {
+  display: flex;
+  padding-top: 20px;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.explore-btn01 {
+  width: 163px;
+  height: 48px;
+  top: 442px;
+  left: 311px;
+  padding: 14px 28px 10px 28px;
+  gap: 10px;
+  border-radius: 57px;
+  font-family: "SVN-Gilroy", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #fff;
+  border: transparent;
+  color: #003459;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+}
+
+
+.product{
+  display: flex;
+  flex-direction: row;
+  height: 275vh;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.product-left{
+  flex: 30%;
+}
+
+
+.left-head{
+  height: 8vh;
+  padding: 20px;
+}
+
+.product-left-top{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.left-head h2{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+  font-family: "SVN-Gilroy", sans-serif;
+  color: #003459;
+}
+
+.product-left-style{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-start;
+  padding: 20px;
+  border-bottom: 1px solid #EBEEEF;
+}
+
+.product-left-style h4{
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  color: #00171F;
+  font-family: "SVN-Gilroy", sans-serif;
+}
+
+.product-left-style label{
+  font-size: 14px;
+  font-weight: 500;
+  padding: 15px;
+  line-height: 20px;
+  color: #00171F;
+  text-align: left;
+  font-family: "SVN-Gilroy", sans-serif;
+}
+
+.product-left-style .min{
+  width: 135px;
+  border-bottom: 2px solid #EBEEEF;
+  border-left: transparent;
+  border-top: transparent;
+  border-right: transparent;
+  height: 40px;
+  padding: 10px 0px 0px 0px;
+  gap: 10px;
+  border: 0px 0px 1px 0px;
+}
+
+.product-left-style .min::placeholder{
+  font-family: "SVN-Gilroy", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  color: #00171F;
+  padding: 10px;
+}
+
+.product-left-style img{
+  margin-right: 10px;
+}
+
+.product-right{
+  flex: 70%;
+}
+
+.right-top-product{
+  height: 10vh;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.small-dogs{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.small-dogs h3{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+  font-family: "SVN-Gilroy", sans-serif;
+  color: #003459;
+}
+
+.small-dogs h6{
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+text-align: left;
+color: #667479;
+font-family: "SVN-Gilroy", sans-serif;
+}
+
+.product-btn {
+  width: 165px;
+  height: 35px;
+  border-radius: 57px;
+  border: 1.5px solid #CCD1D2;
+  font-family: "SVN-Gilroy", sans-serif;
+  background-color: transparent;
+  color: #CCD1D2;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px, 10px, 4px, 20px;
+}
+
+.bottom-product {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.more-product {
+  display: flex;
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.more-product li{
+  padding-left: 50px;
+}
+
+.more-product li a{
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  font-family: "SVN-Gilroy", sans-serif;
+  color: #003459;
+}
+
+.more-product li .active{
+  width: 34px;
+  height: 34px;
+  padding: 6px 13px 4px 13px;
+  gap: 10px;
+  border-radius: 8px;
+  background-color: #003459;
+  color: #fff;
+  opacity: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+/* PRODUCT PAGE */
+
+
+
+.product-items{
+  display: flex;
+  flex-direction: row;
+  height: 118vh;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 20px;
+  box-shadow: -2px 0px 28px -2px #00000014;
+}
+
+.product-item-left{
+  flex: 50%;
+  padding: 15px;
+}
+
+.big-dog{
+  width: 100%;
+}
+
+.product-item-right{
+  padding: 15px;
+  flex: 50%;
+}
+
+.guarantee{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #FCEED5;
+  width: 560px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.guarantee h6{
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+  font-family: "SVN-Gilroy", sans-serif;
+  color: #003459;
+}
+
+.share-sec{
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+.share-sec h6{
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+  font-family: "SVN-Gilroy", sans-serif;
+  color: #003459;
+}
+
+
+.product-dog-text{
+  display: flex;
+  gap: 20px;
+  height: 5vh;
+}
+
+.product-dog-text p{
+  font-family: "SVN-Gilroy", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  color: #667479;
+}
+
+.below{
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+
+.below p{
+  font-family: "SVN-Gilroy", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  color: #99A2A5;
+}
+
+.below h2{
+  font-family: "SVN-Gilroy", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+  color: #00171F;
+}
+
+.below h3{
+  font-family: "SVN-Gilroy", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  color: #003459;
+}
+
+
+.contact-btn {
+  width: 138px;
+  height: 44px;
+  border-radius: 57px;
+  border: 1.5px solid #fff;
+  font-family: "SVN-Gilroy", sans-serif;
+  background-color: #003459;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0em;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-btns {
+  display: flex;
+  gap: 18px;
+  height: 10vh;
+}
+
+.chat-btn {
+  width: 230px;
+  height: 44px;
+  top: 442px;
+  left: 311px;
+  gap: 10px;
+  border-radius: 57px;
+  font-family: "SVN-Gilroy", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: transparent;
+  border: 2px solid #003459;
+  color: #003459;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.product-details table{
+  width: 100%;
+  height: 564px;
+}
+
+.product-details tr{
+  height: 42px;
+}
+
+.product-details td{
+  border-bottom: 1px solid #EBEEEF;
+  padding: 10px;
+  font-family: "SVN-Gilroy", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  color: #667479;
+}
+
+.customers{
+  width: 80%;
+  height: 55vh;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding-left: 40px;
+}
+
+.customers-top h2{
+  font-family: "SVN-Gilroy", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+  color: #00171F;
+}
+
+.customer-bottom{
+  margin-top: 10px;
+  display: flex;
+  gap: 15px;
+}
+
+.customer-dot{
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.pet-see {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 50px;
+  height: 80vh;
+}
+
+.mobile-logo-sec{
+  display: none;
+}
+
+
+
+
+
+
+/* MEDIA QUERY MAX WIDTH 414 */
+
+@media only screen and (max-width: 600px) {
+  .footer{
+    width: 100%;
+    height: 80vh;
+  }
+  
+  .news-letter{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 40vh;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .news-left{
+    flex: 30%;
+    margin-bottom: 10px;
+  }
+  
+  .news-left h3{
+    font-size: 20px;
+  }
+  
+  .news-right{
+    flex: 60%;
+    width: 100%;
+    height: 65px;
+    padding: 10px;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .news-right input{
+    width: 100%;
+    padding: 10px;
+    gap: 0px;
+    font-family: "SVN-Gilroy", sans-serif;
+    border-radius: 8px; 
+    border: 1px solid #b4babc; 
+  }
+  
+  .news-right button{
+    width: 100%;
+    height: 48px;
+    /* padding: 14px 28px 10px 28px; */
+    gap: 20px;
+    border-radius: 8px; 
+    background-color: #003459;
+    color: #fff;
+    font-family: "SVN-Gilroy", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+  }
+  
+  .navigate{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-bottom: 1px solid #CCD1D2;
+    align-items: center;
+    height: 20vh;
+    gap: 20px;
+  }
+  
+  
+  .navigate a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 4px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #00171F;
+    font-family: "SVN-Gilroy", sans-serif;
+    padding: 20px 18px;
+  }
+  
+  .navigate img{
+    padding: 20px 26px;
+  }
+
+  .logo-sec{
+    display: none;
+  }
+  
+  .mobile-logo-sec{
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 20px;
+    height: 40vh;
+    align-items: center;
+  }
+
+  .center-logo-sec img{
+    width: 114px;
+  }
+  
+  .mobile-logo-sec p{
+    font-family: "SVN-Gilroy", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #667479;
+  }
+  
+  .mobile-right-logo-sec{
+    display: flex;
+    gap: 40px;
+  }
+
+  .search-bar input{
+    display: none;
+  }
+
+  .nav-links a{
+    display: none;
+  }
+
+  .join-btn button{
+    display: none;
+  }
+
+  .arrowDown img{
+    display: none;
+  }
+
+  .logo {
+    margin: 0 auto;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 15px;
+    height: 95.5vh;
+    overflow: hidden;
+    position: relative;
+  }
+  .mainSection{
+    width: 100%;
+    border: 3px solid;
+    background-color: #FCEED5;
+    position: relative;
+  }
+
+  .left-side{
+    width: 100%;
+    padding-top: 30px;
+  }
+
+  .leftside h1 {
+    font-size: 42px;
+    font-weight: 800;
+  }
+  
+  .leftside h2 {
+    font-size: 33px;
+    font-weight: 700;
+  }
+  
+  .leftside p {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .rightside{
+    justify-content: flex-start;
+  }
+
+  .woman {
+    width: 55.795vh;
+    height: 52.021vh;
+    left: -20px;
+    bottom: -5vh;
+  }
+
+  .rect1 {
+    width: 71.29vh;
+    bottom: -5vh;
+  }
+
+  .rect{
+    width: 71.29vh;
+    bottom: -5vh;
+  }
+
+  .top-pet {
+    flex-direction: column;
+  }
+
+  .pet-btn{
+    display: none;
+  }
+
+  .pet-section{
+    width: 100%;
+    padding: 15px;
+    height: 450vh;
+  }
+
+  .pet-btn2 {
+    margin-top: 20px;
+    width: 100%;
+    height: 48px;
+    border-radius: 57px;
+    border: 1.5px solid #003459;
+    font-family: "SVN-Gilroy", sans-serif;
+    background-color: transparent;
+    color: #003459;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bottom-pet {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+
+}
+
+
+
+
 
