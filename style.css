@@ -1765,7 +1765,7 @@ font-family: "SVN-Gilroy", sans-serif;
     flex-direction: column;
     width: 100%;
     padding: 15px;
-    height: 95.5vh;
+    height: 84.5vh;
     overflow: hidden;
     position: relative;
   }
@@ -1874,7 +1874,7 @@ font-family: "SVN-Gilroy", sans-serif;
     display: block;
     position: absolute;
     z-index: -1;
-    top: -100px;
+    top: -0px;
     width: 100%;
   }
 
