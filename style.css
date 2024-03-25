@@ -1857,7 +1857,8 @@ font-family: "SVN-Gilroy", sans-serif;
   }
 
   .short-section{
-    height: 75vh;
+    height: 80vh;
+    flex-direction: column-reverse;
     width: 95%;
   }
 
@@ -1869,8 +1870,12 @@ font-family: "SVN-Gilroy", sans-serif;
     display: block;
     position: absolute;
     z-index: -1;
-    /* left: -30px; */
-    max-width: 1000px;
+    top: -100px;
+    width: 100%;
+  }
+
+  .short-left {
+    flex: 1%;
   }
 
   .short-right h1 {
