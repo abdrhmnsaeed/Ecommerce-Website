@@ -1573,6 +1573,13 @@ font-family: "SVN-Gilroy", sans-serif;
   padding-left: 40px;
 }
 
+.bigger{
+  display: none;
+}
+.smaller{
+  display: none;
+}
+
 .customers-top h2{
   font-family: "SVN-Gilroy", sans-serif;
   font-size: 24px;
@@ -1606,6 +1613,10 @@ font-family: "SVN-Gilroy", sans-serif;
 }
 
 .mobile-logo-sec{
+  display: none;
+}
+
+.guarantee1{
   display: none;
 }
 
@@ -2191,6 +2202,13 @@ font-family: "SVN-Gilroy", sans-serif;
 }
 
 .bigger{
+  display: block;
+  width: 100%;
+}
+
+
+.smaller{
+  display: block;
   width: 100%;
 }
 
