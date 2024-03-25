@@ -2210,6 +2210,7 @@ font-family: "SVN-Gilroy", sans-serif;
 .smaller{
   display: block;
   width: 100%;
+  margin-top: 10px;
 }
 
 .product-item-left{
@@ -2258,6 +2259,10 @@ font-family: "SVN-Gilroy", sans-serif;
   z-index: 2; /* and place it over the hamburger */
   
   -webkit-touch-callout: none;
+}
+
+.customer-bottom{
+  overflow: hidden;
 }
 
 /*
